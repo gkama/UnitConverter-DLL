@@ -2,3 +2,4 @@ C:\Users\gkam4141\Documents\GitHub\UnitConverter DLL\UnitConverter\UnitConverter
 C:\Users\gkam4141\Documents\GitHub\UnitConverter DLL\UnitConverter\UnitConverter\bin\Release\UnitConverter.pdb
 C:\Users\gkam4141\Documents\GitHub\UnitConverter DLL\UnitConverter\UnitConverter\obj\Release\UnitConverter.dll
 C:\Users\gkam4141\Documents\GitHub\UnitConverter DLL\UnitConverter\UnitConverter\obj\Release\UnitConverter.pdb
+C:\Users\gkam4141\Documents\GitHub\UnitConverter DLL\UnitConverter\UnitConverter\obj\Release\UnitConverter.csprojResolveAssemblyReference.cache
