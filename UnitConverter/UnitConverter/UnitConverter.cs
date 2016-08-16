@@ -135,9 +135,16 @@ namespace UnitConverter
             else
                 return 0;
         }
+        //List of Time Items
+        private List<string> _valuesListTime = new List<string>() { "Seconds", "Minutes", "Hours", "Days", "Weeks", "Months", "Years" };
+        public List<string> ValuesListTime
+        {
+            get { return _valuesListTime; }
+        }
+
         #endregion
 
-        #region Convert Number
+        #region Convert Decimal Number
         public string ConvertDecimalNumber(string Case, int Number)
         {
             //If "" is returned, it's parsed incorrectly
@@ -161,6 +168,12 @@ namespace UnitConverter
             }
             else
                 return "";
+        }
+        //List of Decimal Number Items
+        private List<string> _valuesListDecimalNumber = new List<string>() { "Decimal", "Binary", "Hexadecimal", "Octal" };
+        public List<string> ValuesListDecimalNumber
+        {
+            get { return _valuesListDecimalNumber; }
         }
         #endregion
 
@@ -411,6 +424,12 @@ namespace UnitConverter
             else
                 return 0;
         }
+        //List of Currency Items
+        private List<string> _valuesListCurrency = new List<string>() { "US Dollar", "Bitcoin", "Euro", "British Pound", "Indian Rupee", "Australian Dollar", "Canadian Dollar", "Japanese Yen", "Chinese Yuan Renminbi", "Mexican Peso" };
+        public List<string> ValuesListCurrency 
+        {
+            get { return _valuesListCurrency; }
+        }
         #endregion
 
         #region Convert Liquid
@@ -562,6 +581,12 @@ namespace UnitConverter
             else
                 return 0;
         }
+        //List of Liquid Items
+        private List<string> _valuesListLiquid = new List<string>() { "Pints", "Cubic Meters", "Quarts", "Gallons", "Ounces", "Cups" };
+        public List<string> ValuesListLiquid 
+        {
+            get { return _valuesListLiquid; }
+        }
         #endregion
 
         #region Convert Weight
@@ -669,6 +694,12 @@ namespace UnitConverter
             }
             else
                 return 0;
+        }
+        //List of Weight Items
+        private List<string> _valuesListWeight = new List<string>() { "Pounds", "Kilograms", "Ounces", "Grams", "US Tons" };
+        public List<string> ValuesListWeight
+        {
+            get { return _valuesListWeight; }
         }
         #endregion
 
@@ -856,6 +887,12 @@ namespace UnitConverter
             else
                 return 0;
         }
+        //List of Length Items
+        private List<string> _valuesListLength = new List<string>() { "Centimeters", "Meters", "Feet", "Yards", "Kilometers", "Miles", "Inches" };
+        public List<string> ValuesListLength
+        {
+            get { return _valuesListLength; }
+        }
         #endregion
 
         #region Convert Degrees (Temperature)
@@ -900,8 +937,12 @@ namespace UnitConverter
             else
                 return 0;
         }
-
-
+        //List of Degrees Items
+        private List<string> _valuesListDegrees = new List<string>() { "Celcius", "Fahrenheit", "Kelvin" };
+        public List<string> ValuesListDegrees
+        {
+            get { return _valuesListDegrees; }
+        }
         #endregion
 
         #region Convert Area
@@ -1095,6 +1136,12 @@ namespace UnitConverter
             else
                 return 0;
         }
+        //List of Area Items
+        private List<string> _valuesListArea = new List<string>() { "Square Inches", "Square Kilometers", "Square Miles", "Square Meters", "Square Feet", "Square Centimeters", "Square Yards" };
+        public List<string> ValuesListArea
+        {
+            get { return _valuesListArea; }
+        }
         #endregion
 
         #region Convert RadiansDegrees
@@ -1125,6 +1172,12 @@ namespace UnitConverter
             }
             else
                 return 0;
+        }
+        //List of RadiansDegrees Items
+        private List<string> _valuesListRadiansDegrees = new List<string>() { "Degrees", "Radians" };
+        public List<string> ValuesListRadiansDegrees
+        {
+            get { return _valuesListRadiansDegrees; }
         }
         #endregion
     }
