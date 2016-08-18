@@ -621,7 +621,7 @@ namespace UnitConverter
         public double T_TO_T = 1.00000;
 
         //Conversion function
-        private double ConvertWeight(string Case, double Value)
+        public double ConvertWeight(string Case, double Value)
         {
             if (double.TryParse(Value.ToString(), out Value))
             {
